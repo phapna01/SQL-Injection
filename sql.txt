@@ -1,0 +1,17 @@
+Group by: sử dụng kết hợp select để sắp xếp dữ liệu đồng nhất trong các nhóm
+
+Having: (điều kiện) dùng lọc ra các bản ghi dựa trên điều kiện khi sử dụng hàm tập hợp
+
+concat(): sử dụng nối 2 hay nhiều chuỗi thành một chuỗi
+
+Floor(): lấy về giá trị nguyên cận dưới
+
+or 1=1 GROUP BY CONCAT(version(), FLOOR(rand(0)*2)) having min(0)--
+
+having trả ra 1 điều kiện, min(0) -> lỗi
+
+substring(string, start, length): kiểm tra luân chuyển qua từng vị trí và giá trị có thể.
+if(condition, true, false) 
+
+Limit offset, row_count
+
